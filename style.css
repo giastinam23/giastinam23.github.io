@@ -1,0 +1,56 @@
+/* ✅ 1. Custom Font - Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif; /* Custom Font */
+    background-color: #f4f4f4; /* ✅ 2. Custom Background Color */
+    color: #333; /* ✅ 2. Custom Text Color */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* ✅ 3. Custom Layout - Center Content with Flexbox */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ✅ 2. Custom Navigation Bar Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: #6f0477; 
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white; /* Light text */
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff6600; /* Hover Effect */
+}
+
+/* ✅ 3. Custom Image Styling */
+img {
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
