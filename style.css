@@ -1,8 +1,7 @@
 /* ✅ 1. Custom Font - Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif; /* Custom Font */
+    font-family: 'Georgia', sans-serif; /* Custom Font */
     background-color: #f4f4f4; /* ✅ 2. Custom Background Color */
     color: #333; /* ✅ 2. Custom Text Color */
     text-align: center;
@@ -43,7 +42,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #ff6600; /* Hover Effect */
+    background-color: #f005be; /* Hover Effect */
 }
 
 /* ✅ 3. Custom Image Styling */
@@ -54,3 +53,10 @@ img {
     height: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
+
+ul {
+    list-style-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"%3E%3Cpath d="M18 4c-4-1-6 3-6 3s-2-4-6-3-4 6-2 8l8 8 8-8c2-2 2-7-2-8z" fill="%23808"%3E%3C/path%3E%3C/svg%3E');
+    list-style-position: inside; /* Moves bullets inside */
+
+}
+
