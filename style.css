@@ -1,16 +1,15 @@
-/* ✅ 1. Custom Font - Import Google Font */
 
 body {
-    font-family: 'Georgia', sans-serif; /* Custom Font */
-    background-color: #f4f4f4; /* ✅ 2. Custom Background Color */
-    color: #333; /* ✅ 2. Custom Text Color */
+    font-family: 'Georgia', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
     text-align: center;
     margin: 0;
     padding: 20px;
   
 }
 
-/* ✅ 3. Custom Layout - Center Content with Flexbox */
+/* Center Content  */
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -20,7 +19,7 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* ✅ 2. Custom Navigation Bar Styling */
+/* Navigation Bar Styling */
 nav ul {
     list-style: none;
     padding: 0;
@@ -46,7 +45,7 @@ nav ul li a:hover {
     background-color: #f005be; 
 }
 
-/* ✅ 3. Custom Image Styling */
+/*  Image Styling */
 img {
     border-radius: 10px;
     margin-top: 20px;
